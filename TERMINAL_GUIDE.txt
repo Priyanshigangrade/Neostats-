@@ -1,0 +1,27 @@
+#!/bin/bash
+# NeoStats AI Chatbot - Complete Terminal Startup Guide
+# Copy and paste these commands one by one in your terminal
+
+echo "=========================================="
+echo "NeoStats AI Chatbot - Terminal Setup"
+echo "=========================================="
+echo ""
+echo "STEP 1: Navigate to project directory"
+echo "Command:"
+echo "cd \"/Users/priyanshigangrade/Desktop/NeoStats AI Engineer Use Case/AI_UseCase\""
+echo ""
+echo "STEP 2: Set Groq API Key"
+echo "Command:"
+echo "export GROQ_API_KEY='your_groq_api_key_here'"
+echo ""
+echo "STEP 3: Set Tavily API Key (for web search)"
+echo "Command:"
+echo "export TAVILY_API_KEY='your_tavily_api_key_here'"
+echo ""
+echo "STEP 4: Start the app"
+echo "Command:"
+echo "python3 -m streamlit run app.py"
+echo ""
+echo "=========================================="
+echo "App will open at: http://localhost:8501"
+echo "=========================================="

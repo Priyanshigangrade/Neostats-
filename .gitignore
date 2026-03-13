@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sensitive files
+.env
+.env.local
+*.env
+
+# Cache and temporary files
+*.cache
+.DS_Store
+.pytest_cache/
+.mypy_cache/
+
+# Vector database
+.vector_db/
+*.db
+
+# Streamlit cache
+.streamlit/
+
+# Test files
+test_keys.py
+test_project.py
+
+# OS files
+.DS_Store
+Thumbs.db
